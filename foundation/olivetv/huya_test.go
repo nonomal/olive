@@ -7,7 +7,7 @@ import (
 )
 
 func TestHuya_Snap(t *testing.T) {
-	u := "https://www.huya.com/520588"
+	u := "https://www.huya.com/uzi"
 	huya, err := tv.NewWithURL(u)
 	if err != nil {
 		println(err.Error())
